@@ -1,9 +1,8 @@
-import "./NavButton.css";
+import "./NavButton.scss";
 
 function NavButton() {
     return (
         <div className="Nav-button">
-            Hello
         </div>
     )
 }

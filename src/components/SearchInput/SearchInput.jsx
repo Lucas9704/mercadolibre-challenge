@@ -1,10 +1,8 @@
-import "./SearchInput.css";
+import "./SearchInput.scss";
 
 function SearchInput() {
     return (
-        <div className="Search-input">
-            Hello
-        </div>
+        <input className="Search-input" placeholder="Nunca dejes de buscar"/>
     )
 }
 

@@ -1,10 +1,11 @@
-import "./SearchButton.css";
+import "./SearchButton.scss";
+import lup from '../../img/lupa.png'
 
 function SearchButton() {
     return (
-        <div className="Search-button">
-            Hello
-        </div>
+        <button className="Search-button" >
+            
+        </button>
     )
 }
 

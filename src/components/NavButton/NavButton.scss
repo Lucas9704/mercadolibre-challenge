@@ -1,0 +1,16 @@
+.Nav-button {
+    background-image: url(../../img/nav-button.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 134px;
+    height: 34px;
+    cursor: pointer;
+    @media screen and (max-width: 768px) {
+        background-size: contain;
+        background-position: center;
+        background-image: url(../../img/nav-button-min.png);
+        width: 100px;
+        height: 50px;
+    }
+}

@@ -1,10 +1,17 @@
-import "./NavBar.css"
+import "./NavBar.scss";
+import { NavButton, SearchForm } from '../'
+import { Link } from "react-router-dom";
 
 function NavBar() {
+
+
     return (
-        <div className="Nav-bar">
-            Hello
-        </div>
+        <nav className="Nav-bar">
+            <Link to={"/"}>
+                <NavButton />
+            </Link>
+            <SearchForm />
+        </nav>
     )
 }
 

@@ -1,9 +1,11 @@
-import "./SearchForm.css";
+import "./SearchForm.scss";
+import { SearchButton, SearchInput } from '../'
 
 function SearchForm() {
     return (
         <div className="Search-form">
-            Hello
+            <SearchInput />
+            <SearchButton />
         </div>
     )
 }
