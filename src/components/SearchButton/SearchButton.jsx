@@ -1,9 +1,8 @@
 import "./SearchButton.scss";
-import lup from '../../img/lupa.png'
 
-function SearchButton() {
+function SearchButton({click}) {
     return (
-        <button className="Search-button" >
+        <button className="Search-button" onClick={click}>
             
         </button>
     )

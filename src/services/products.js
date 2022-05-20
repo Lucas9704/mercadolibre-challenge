@@ -1,5 +1,5 @@
 import { API } from "./api";
 
-export function getProducts( ) {
-    return API.get(`/search?q=:query`);
+export function getProducts( { query } ) {
+    return API.get(`/search=${query}`);
 }

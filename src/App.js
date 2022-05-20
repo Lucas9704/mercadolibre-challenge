@@ -1,7 +1,7 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import { NavBar } from './components';
-import { About, Contact, Home, NotFound } from './pages';
+import { About, Contact, Home, NotFound, ProductDescription, SearchResult } from './pages';
 
 function App() {
   return (
@@ -12,6 +12,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/items" element={<SearchResult />} />
+          <Route path="/items/:id" element={<ProductDescription />} />
           {/*Cualquier otra ruta no definida - 404 not found - not match  */}
           <Route path="*" element={<NotFound />} />
         </Routes>

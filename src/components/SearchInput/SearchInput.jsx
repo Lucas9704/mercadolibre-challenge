@@ -1,8 +1,16 @@
 import "./SearchInput.scss";
 
-function SearchInput() {
+function SearchInput({data, change, keyDown}) {
     return (
-        <input className="Search-input" placeholder="Nunca dejes de buscar"/>
+        <input
+        name="search"
+        id="search"
+        type="text"
+        value={data}
+        onChange={change}
+        className="Search-input" 
+        placeholder="Nunca dejes de buscar" 
+        onKeyDown={keyDown}/>
     )
 }
 
